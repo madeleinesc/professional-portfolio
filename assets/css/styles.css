@@ -9,4 +9,41 @@
 
 
 /* main title */
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+}
 
+.headline-mini {
+    font-family: 'Misto';
+    font-size: 30px;
+}
+
+.headline-title {
+    font-family: 'Misto';
+    font-size: 70px;
+    color: #1b1b1b;
+    /* word-wrap: break-word; */
+    
+}
+
+.headline-subtitle {
+    font-size: 15px;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    
+}
+
+
+@media (min-width: 768px) {
+    .headline-title {
+        font-size: 150px;
+    }
+
+    .headline-mini {
+        font-size: 50px;
+    }
+
+    .headline-subtitle {
+        font-size: 25px;
+    }
+}
