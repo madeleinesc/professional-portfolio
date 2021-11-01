@@ -1,11 +1,6 @@
-/* navigation */
-.navbar {
-    font-family: 'Zen Kaku Gothic Antique', sans-serif;
-    font-size: 20px;
-    background-color: whitesmoke;
-    
+body {
+    background-color:#fff0db;
 }
-
 
 
 /* main title */
@@ -19,38 +14,30 @@ h1 span {
     word-wrap: break-word;
 }
 
-.headline-mini {
-    font-family: 'Misto';
-    font-size: 30px;
-}
-
 .headline-title {
     font-family: 'Misto';
-    font-size: 70px;
-    color: #1b1b1b;
-    /* word-wrap: break-word; */
-    
+    font-size: 80px;
+    color: #b91a2f;
+   
 }
 
-.headline-subtitle {
+.headline-sub {
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
-    font-family: 'Zen Kaku Gothic Antique', sans-serif;
-    
+    color: #b91a2f;
 }
-
-
-
 
 @media (min-width: 768px) {
     .headline-title {
         font-size: 150px;
     }
 
-    .headline-mini {
-        font-size: 50px;
+    .headline-sub {
+        font-size: 15px;
     }
 
-    .headline-subtitle {
-        font-size: 25px;
-    }
 }
+
+
+
+
