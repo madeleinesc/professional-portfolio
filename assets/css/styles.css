@@ -58,10 +58,21 @@ hr .d-block {
 /* a tags */
 a {
     text-decoration: none;
+    color: #1b1b1b;
 }
 
 a:hover {
     cursor: pointer;
+}
+
+a.work-link {
+    color: #b91a2f;
+    font-weight: bold;
+}
+
+a.contact-links:hover {
+    color: #b91a2f;
+
 }
 
 
