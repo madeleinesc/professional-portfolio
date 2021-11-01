@@ -15,6 +15,7 @@ body {
 .main-title {
     height: 100vh;
     min-height: 500px;
+    padding-top: 120px;
 }
 
 h1 span {
@@ -33,6 +34,32 @@ h1 span {
     color: #b91a2f;
 }
 
+
+
+/* HR NOT WORKING */
+hr .d-block {
+    color: #b91a2f;
+}
+
+
+/* each section's title */
+.section-title {
+    font-family: 'Misto';
+    font-size: 30px;
+    color: #b91a2f;
+}
+
+
+.main-img {
+    padding-bottom: 15px;
+}
+
+
+
+
+
+
+/* media queries */
 @media (min-width: 768px) {
     .main-title {
         padding-top: 60px;
@@ -46,26 +73,16 @@ h1 span {
         font-size: 25px;
         padding-bottom: 5px;
     }
-}
-
-
-/* HR NOT WORKING */
-hr .d-block {
-    color: #b91a2f;
-}
-
-.section-title {
-    font-family: 'Misto';
-    font-size: 20px;
-    color: #b91a2f;
-}
-
-
-@media (min-width: 768px) {
+    
     .section-title {
         font-size: 40px;
     }
 }
+
+
+
+
+
 
 
 
