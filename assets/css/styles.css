@@ -12,39 +12,40 @@ body {
 
 
 /* main title */
-.main-title {
-    height: 100vh;
-    min-height: 500px;
-    padding-top: 120px;
+.headline {
+    position: relative;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
-h1 span {
-    word-wrap: break-word;
+.headline-content {
+    display: block;
+    position: relative;
+}
+
+
+.headline-content .headline-title {
+    font-weight: 900
 }
 
 .headline-title {
     font-family: 'Misto';
-    font-size: 90px;
+    font-size: 70px;
     color: #1b1b1b;
-   
 }
 
-.headline-sub {
-    font-size: 20px;
-    color: #b91a2f;
+.headline-subtitle {
+    font-size: 24px
 }
 
 
-
-/* HR NOT WORKING */
-hr .d-block {
-    color: #b91a2f;
-}
 
 
 /* each section's title */
 .section-title {
-    font-family: 'Misto';
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
     font-size: 30px;
     color: #b91a2f;
 }
@@ -197,7 +198,6 @@ a.contact-links:hover {
         font-size: 70px;
     }
 }
-
 
 
 
