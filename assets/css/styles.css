@@ -14,6 +14,10 @@
     min-height: 500px;
 }
 
+h1 span {
+    word-wrap: break-word;
+}
+
 .headline-mini {
     font-family: 'Misto';
     font-size: 30px;
@@ -36,7 +40,7 @@
 
 @media (min-width: 768px) {
     .headline-title {
-        font-size: 150px;
+        font-size: 200px;
     }
 
     .headline-mini {
