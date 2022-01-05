@@ -10,10 +10,9 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <!-- google fonts -->
-   
-
-   
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/4437f17642.js" crossorigin="anonymous"></script>
@@ -27,6 +26,151 @@
 
 
 <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#home">
+            <img src="./assets/images/logo.png" width="30" height="30" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">about</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#work">work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    
+
+      
+
+    <!-- hero -->
+    <div class="container mt-5 vh-80 pt-5 #home">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <h1 class="hero-title">Madeleine
+                    <br>
+                    Cosway
+                </h1>
+            </div>
+            <div class="col-sm-12 text-center">
+                <img src="assets/images/portraitmanchester.png" class="img-fluid">
+            </div>
+           
+        </div>
+    </div>
+
+    
+    <!-- about -->
+    <div class="container mt-5 vh-800 pt-5 #about">
+        <div class="row">
+            <div class="col-md-6 text-start">
+                <h1 class="sub-heading">ABOUT
+                    <br>
+                    ME
+                </h1>
+            </div>
+            <div class="col-md-6">
+                <p class="pt-2">Hi, Im Madeleine and I am a junior full stack web developer & UI/UX
+                    designer
+                    currently
+                    based in Adelaide, Australia.</p>
+                <p>I have always been extremely enthusiastic about technology as well as art & design. But it wasnt
+                    until 2020 - after years of travelling - that I decided to pursue these interests head on!
+                </p>
+                <p>I started my coding career by teaching myself Python then moved onto basic data science using C++
+                    before finally deciding to go the Adelaide University bootcamp to advance my knowledge.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- work -->
+    <div class="container mt-5 vh-800 pt-5 #work">
+        <div class="row">
+            <div class="col-md-6 text-start">
+                <h1 class="sub-heading">SELECTED
+                    <br>
+                    WORKS
+                </h1>
+            </div>
+            <div class="col-md-6 text-start">
+                <p>While I'm still relatively new to coding and web development, I have picked up many skills along the
+                    way.
+                </p>
+                <p>I have used <span class="text-muted">HTML</span>, <span class="text-muted">CSS</span> (frameworks
+                    such as Bootstrap & Materialize), <span class="text-muted">Javascript</span>, <span
+                        class="text-muted">JQuery</span>, <span class="text-muted">OOP</span>, <span
+                        class="text-muted">Express.js</span>, <span class="text-muted">Node.js</span>, <span
+                        class="text-muted">NPM</span>, <span class="text-muted">C++</span>, (in RStudio for data
+                    science), <span class="text-muted">MySQL</span>, <span class="text-muted">ORM</span>, <span
+                        class="text-muted">Python </span>(PyCharm & Jupyter), <span class="text-muted">Github & Git
+                        Pages </span>as well as <span class="text-muted">Heroku</span> and much more. </p>
+                <p>Below is a selection of some of my work so far.</p>
+                
+            </div>
+        </div>
+        <div class="row">
+            
+            <div class="col-md-6 pt-5">
+                <a href="https://rhjeffries.github.io/ideal-telegram/"><img src="assets/images/screencapture-rhjeffries-github-io-ideal-telegram-2022-01-04-13_04_43.png" class="project-img"></a>
+            </div>
+
+            <div class="col-md-6 pt-5">
+                <a href="https://madeleinesc.github.io/weather-dashboard/"><img src="assets/images/screencapture-madeleinesc-github-io-weather-dashboard-2022-01-04-13_05_22.png" class="project-img"></a>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-md-6 pt-4">
+                <a href="https://immense-bastion-97694.herokuapp.com/"><img src="assets/images/screencapture-immense-bastion-97694-herokuapp-2022-01-04-13_07_44.png" class="project-img"></a>
+            </div>
+            <div class="col-md-6 pt-4">
+                <a href="https://the-book-was-better-book-club.herokuapp.com/"><img src="./assets/images/screencapture-the-book-was-better-book-club-herokuapp-2022-01-05-15_52_05.png" class="project-img"></a>
+            </div>
+        </div>
+
+
+
+
+        <div class="row">
+            <div class="col-md-12 pt-5">
+                <h1 class=" text-center">
+                    <a href="https://github.com/madeleinesc" class="contact-links">CLICK HERE FOR MORE PROJECTS</a>
+                </h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="mt-5 p-4 footer-bg text-center #contact">
+        <h1>
+            Let's work together
+            <br>
+            <a href="mailto: madeleine.codes@gmail.com" class="email">madeleine.codes@gmail.com</a>
+            
+
+        </h1>
+      </div>
+  
+
+
+
+
+
+
+
+
+
+
    
 
 
