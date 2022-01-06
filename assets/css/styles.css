@@ -5,12 +5,12 @@ body {
 
 /* main heading */
 .hero-title {
-    font-size: 10vh;
+    font-size: 8vw;
     letter-spacing: 3px;
 }
 
 .sub-heading {
-    font-size: 12vh;
+    font-size: 6vw;
     letter-spacing: 3px;
 }
 
@@ -21,30 +21,21 @@ body {
     object-fit: contain;
 }
 
-/* links */
-.contact-links {
-    color: black;
-    text-decoration: none;
-}
 
-.contact-links:hover {
-    color: black;
-    text-decoration: none;
-    cursor:-moz-zoom-in;
-}
 
-/* footer */
+/* contact links & footer */
 .footer-bg {
     background-color: white;
 }
 
-.email {
-    color: black;
+.contact-links {
+  
     letter-spacing: 2px;
+    font-size: 4vw;
 }
 
-.email:hover {
-    color: black;
+.contact-links:hover {
+    
     text-decoration: underline;
     letter-spacing: 2px;
 }
