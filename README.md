@@ -30,7 +30,7 @@ Below is a screen capture of my full webpage!
 
 
 And here is my portfolio in action!
-![portfolio gif](./assets/images/portfolio.gif)
+![portfolio gif](./assets/images/Portfolio.gif)
 
 
 The Links in the nav bar go to the work, about and contact sections respectively while i have also have clickable icons on my hero section that go directly to my github and linkedin pages.
