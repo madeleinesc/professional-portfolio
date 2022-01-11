@@ -24,6 +24,9 @@ I designed and developed my responsive minimalistic portfolio using:
 I am a huge fan of minimalist and brutalist design styles which helped me in my choices with this simplistic portfolio.
 
 
+Please [click here](https://madeleinesc.github.io/professional-portfolio/) to view my live webpage.
+
+
 Below is a screen capture of my full webpage!
 ![full web page](./assets/images/fullwebpage.png)
 
